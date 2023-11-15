@@ -1,0 +1,27 @@
+body, html{
+    background-color: rgb(206, 128, 128);
+
+}
+
+foote{
+rposition: fixed;
+height: 100%;
+width: 100%;
+
+top: 0;
+left: 0;
+z-index: 11;
+opacity: 0;
+visibility: hidden;
+-webkit-transition: ease-in-out .3s;
+-o-transition: ease-in-out .3s;
+transition: ease-in-out .3s;
+}
+
+
+.termos{
+    margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
+
+}

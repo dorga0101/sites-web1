@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Login no Pergamum</title>
+</head>
+<body>
+	<P><b>LOGIN no PERGAMUM</b></P>
+<form action="/pagina-login-pergamum" method="post">
+	<label form="html">Categoria:</label>
+	<label for="html">Aluno</label>
+	 <Input id ="html" type= "radio">
+	<label for="html">Servidor</label>
+	 <Input id ="html" type="radio">
+	 <br>
+	<label form="html">Campus</label>
+	 <select>
+	 	<option>São Paulo</option>
+	 	<option>Paraná</option>
+	 	<option>Santa Catarina</option>
+	 </select>
+	 <br>
+	<label for="html">Código:</label>
+	 <input id ="html" type="código">
+	 <br>
+	<label for="html">Senha:</label>
+	 <input id="html" type="password">
+
+	 <br>
+	<button type="submit">Login</button>
+</form>
+</body>
+</html>
